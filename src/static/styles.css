@@ -71,11 +71,6 @@ ion-icon {
 }
 
 
-.menu__img{
-    height: 110px;
-    border-radius: 5%;
-    align-self: center;
-}
 
 .button-active:hover .button-default{
     display: block;
@@ -90,17 +85,10 @@ ion-icon {
 .wei{
     width: 140vh;
 }
-.main_breadcrumb > ul {
-    align-items: center;
-}
 
-.main_breadcrumb > ul > li > div {
-    margin: 0 10px;
-    height: 10px;
-    border: none;
-}
-
-.main_breadcrumb > ul > li > div > select {
-    padding: 0 0 0 10px;
-    background: none;
+.toggle-button__line {
+    width: 30px;
+    height: 3px;
+    margin-top: 4px;
+    background: white;
 }
