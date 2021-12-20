@@ -8,7 +8,7 @@ export default function App() {
         <BrowserRouter>
             <BaseContextWrapper>
                 <Switch>
-                    <Route path="/home" component={Home} exact />
+                    <Route path="/" component={Home} exact />
                 </Switch>
             </BaseContextWrapper>
         </BrowserRouter>
