@@ -15,6 +15,9 @@
     color: #888888
 }
 
+.hovers:hover {
+    color: #105DAF;
+}
 
 ion-icon {
     margin-top: 4px;
@@ -79,16 +82,53 @@ ion-icon {
     display: none;
 }
 
-.hei {
-    height: 80vh;
-}
-.wei{
-    width: 140vh;
-}
 
 .toggle-button__line {
     width: 30px;
     height: 3px;
     margin-top: 4px;
     background: white;
+}
+/*here*/
+
+.grid-card {
+    margin-top: 1%;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    max-width: 700px;
+    grid-gap: 1%;
+}
+.card-box {
+    position: relative;
+}
+
+.card-box img {
+    width: 100%;
+    display: block;
+    border: 2px solid #888888;
+    border-radius: 6px;
+}
+
+
+.card-box .card-front {
+    transform: rotateY(90deg);
+    transition: all ease-in 0.2s;
+    position: absolute;
+}
+
+.flipped .card-front {
+    transform: rotateY(0deg);
+    transition-delay: 0.2s;
+}
+
+
+.card-box .card-back {
+    transition: all ease-in 0.2s;
+    transition-delay: 0.2s;
+
+}
+
+.flipped .card-back {
+    transform: rotateY(90deg);
+    transition-delay: 0s;
 }
