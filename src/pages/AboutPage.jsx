@@ -4,7 +4,7 @@ import NavBar from '../components/Layout/NavBar'
 export default function AboutPage() {
     return (
         <NavBar>
-            <div className=" is-flex is-flex-direction-column
+            <div className=" is-flex section is-flex-direction-column
                 is-align-items-center has-text-centered">
                 <div className="column is-5">
                     <h1 className="is-size-1 is-size-3-mobile">about page!</h1>
